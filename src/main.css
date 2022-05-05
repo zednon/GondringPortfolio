@@ -22,7 +22,7 @@ header{
 
 li {
     float: left;
-    padding: 5px 15px;
+    padding: 15px 15px;
 }
 
 li a {
@@ -54,7 +54,7 @@ li a:hover {
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 1px;
+    padding: 0;
     font-style: center;
     font-size: 30px;
     overflow: hidden;
@@ -82,4 +82,9 @@ li a:hover {
       width: 100%;
       background-color: #f05a2e;
       margin-top: 20px;
+  }
+
+  #top {
+      padding-top: 25px;
+
   }
