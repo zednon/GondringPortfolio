@@ -26,27 +26,38 @@ li {
 }
 
 li a {
-    color: #e5e6e8;
+    color: #edf5f3;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #e5e6e8;
-    color:#213775;
+    background-color: #edf5f3;
+    color:#423947;
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    height: 400px;
+    height: auto;
     margin-top: 50px;
+  }
+
+  button {
+    background-color: #3e827c; 
+    border: dashed;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
   }
 
   .boxblue {
       padding: 10px 20px 15px 20px;
-      border: solid #213775 10px;
-      background-color: #f8f9fd;
+      margin: 10px;
+      border: solid #423947 10px;
+      background-color: #edf5f3;
       height: auto;
       
   }
@@ -58,8 +69,8 @@ li a:hover {
     font-style: center;
     font-size: 30px;
     overflow: hidden;
-  background-color: #f05a2e;
-  color: #f8f9fd;
+  background-color: #3e827c;
+  color: #edf5f3;
 }
   
 
@@ -68,7 +79,7 @@ li a:hover {
   }
 
   body {
-      background-color: #e5e6e8;
+      background-color: #edf5f3;
       font-family: Arial, Helvetica, sans-serif;
       color: #33322e;
   }
@@ -80,7 +91,7 @@ li a:hover {
   footer {
       height: 100px;
       width: 100%;
-      background-color: #f05a2e;
+      background-color: #3e827c;
       margin-top: 20px;
   }
 
