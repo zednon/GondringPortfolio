@@ -1,7 +1,7 @@
 .htmlnotes {
     font-family: reenie-beanie, sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
 }
 
@@ -59,6 +59,7 @@ li a:hover {
     text-decoration: none;
     font-size: 16px;
   }
+
 button:hover{
     background-color: #edf5f3;
     border: #3e827c 4px dashed;

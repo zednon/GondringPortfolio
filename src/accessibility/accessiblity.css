@@ -5,3 +5,10 @@ hr {
 .aboarder {
     border: solid 2px #423947;
 }
+
+.mockups {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 20px;
+    border: solid 2px #423947;
+}
