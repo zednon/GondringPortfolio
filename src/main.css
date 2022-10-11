@@ -3,6 +3,11 @@
     font-weight: 500;
     font-size: 20px;
     font-style: normal;
+    
+}
+
+hr {
+  border: #423947 solid;
 }
 
 
@@ -10,8 +15,12 @@ header{
     text-align: center;
     padding-top: 20px;
 }
-.boxblue {
-  
+.boxBackground {
+  background-color: #e3d973;
+  padding: 10px 20px 15px 20px;
+  margin: 10px;
+  border: solid #3e827c 10px;
+  height: auto;
 }
 
 .fontsizeBig {
