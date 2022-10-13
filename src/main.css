@@ -10,6 +10,18 @@ hr {
   border: #423947 solid;
 }
 
+.fontmidsize {
+font-size: 36px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 700;
+color:#edf5f3;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 5px;
+}
 
 header{
     text-align: center;
@@ -30,7 +42,7 @@ header{
 }
 
 li {
-    float: left;
+    display: inline-block;
     padding: 10px 15px;
 }
 
