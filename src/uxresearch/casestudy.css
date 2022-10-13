@@ -5,3 +5,11 @@
 hr {
     border: #423947 solid;
 }
+
+.half {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    height: auto;
+    margin-top: 20px;
+}
