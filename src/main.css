@@ -51,7 +51,23 @@ li a {
     text-decoration: none;
 }
 
+#footerul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-style: center;
+  overflow: hidden;
+background-color: #3e827c;
+color: #edf5f3;
+}
 
+
+
+#footeril {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px ;
+}
 
 
 li a:hover {
