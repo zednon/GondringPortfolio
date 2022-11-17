@@ -15,3 +15,14 @@ hr {
 }
 
 
+.ulPoints {
+    background:#423947;
+    padding: 20px;
+    list-style-type: square;
+}
+
+.liPoints {
+
+  color: #cce5ff;
+  margin: 10px;  
+}

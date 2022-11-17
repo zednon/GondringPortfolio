@@ -41,12 +41,12 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-li {
+.liNav {
     display: inline-block;
     padding: 10px 15px;
 }
 
-li a {
+.liNav a {
     color: #edf5f3;
     text-decoration: none;
 }
@@ -70,7 +70,7 @@ color: #edf5f3;
 }
 
 
-li a:hover {
+.liNav a:hover {
     background-color: #edf5f3;
     color:#423947;
 }
@@ -82,7 +82,8 @@ li a:hover {
     height: auto;
     margin-top: 20px;
   }
-.active {
+  
+#active {
     background-color: white;
     color:#3e827c;
     padding: 5px;
@@ -116,8 +117,7 @@ button:hover{
     
       
   }
-
-  ul {
+.ulNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
