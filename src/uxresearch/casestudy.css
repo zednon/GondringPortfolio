@@ -28,3 +28,10 @@ padding: 20px;
   color: #423947;
   margin: 10px;  
 }
+
+.forth {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+    margin-top: 20px;
+}
