@@ -7,7 +7,7 @@
 }
 
 hr {
-  border: #423947 solid;
+  border: #010F23  solid;
 }
 
 .fontmidsize {
@@ -24,10 +24,10 @@ header{
     padding-top: 20px;
 }
 .boxBackground {
-  background-color: #fcba03;
-  padding: 10px 20px 15px 20px;
+  background-color: #CBD380;
+  padding: 10px 20px 15px 20px; 
   margin: 10px;
-  border: solid #423947 10px;
+  border: solid #010F23 10px;
   height: auto;
 }
 
@@ -43,7 +43,7 @@ header{
 }
 
 .liNav a {
-    color: #edf5f3;
+    color: #FBD386;
     text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ header{
   padding: 0;
   font-style: center;
   overflow: hidden;
-background-color: #3e827c;
+background-color: #010F23;
 color: #edf5f3;
 }
 
@@ -67,8 +67,8 @@ color: #edf5f3;
 
 
 .liNav a:hover {
-    background-color: #edf5f3;
-    color:#423947;
+    background-color: #A74663;
+    color:#FDB98E;
 }
 
 .wrapper {
@@ -81,16 +81,16 @@ color: #edf5f3;
   
 #active {
     background-color: white;
-    color:#3e827c;
+    color:#010F23;
     padding: 5px;
 }
 
 
 
   button {
-    background-color: #3e827c; 
+    background-color: #01BEE8; 
     border: solid 2px black;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -98,16 +98,21 @@ color: #edf5f3;
   }
 
 button:hover{
-    background-color: #edf5f3;
-    border: #3e827c 4px dashed;
-    color:#3e827c
+    background-color: black;
+    border: #01BEE8 2px dotted;
+    color:#01BEE8
 }
+
+button:focus{
+  border: #edf5f3 5px solid;
+ outline: #A74663 5px solid;
+} 
 
 
   .boxblue {
       padding: 10px 20px 15px 20px;
       margin: 10px;
-      border: solid #423947 10px;
+      border: solid #010F23 10px;
       
       height: auto;
     
@@ -120,13 +125,13 @@ button:hover{
     font-style: center;
     font-size: 30px;
     overflow: hidden;
-  background-color: #3e827c;
-  color: #edf5f3;
+  background-color: #010F23;
+  color: #FDB98E;
 }
   
 
   nav {
- 
+ height: 300px;
   }
 
   body {
@@ -142,13 +147,14 @@ button:hover{
   footer {
       height: 200px;
       width: 100%;
-      background-color: #3e827c;
+      background-color: #010F23;
       margin-top: 20px;
-color:#edf5f3;
+color:#FBD386;
   }
 
   #top {
       padding-top: 25px;
+      height: 90px;
 
   }
 
