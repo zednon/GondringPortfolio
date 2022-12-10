@@ -145,7 +145,7 @@ time {
 
 
 /* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
 
 @media screen and (max-width: 900px) {
   .timeline ul li div {
@@ -153,7 +153,7 @@ time {
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
-    /*250+45-6*/
+    /*250+45-6
   }
 }
 
@@ -174,7 +174,7 @@ time {
   }
 }
 
-
+*/
 /* EXTRA/CLIP PATH STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .timeline-clippy ul li::after {
