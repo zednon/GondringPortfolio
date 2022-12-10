@@ -57,6 +57,13 @@ background-color: #010F23;
 color: #edf5f3;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 #footeril {
