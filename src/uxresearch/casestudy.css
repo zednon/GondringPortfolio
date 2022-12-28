@@ -1,5 +1,6 @@
 .scboarder {
     border: solid 2px #423947;
+    margin: 25px 0;
 }
 
 hr {
@@ -12,8 +13,12 @@ hr {
     grid-gap: 5px;
     height: auto;
     margin-top: 20px;
+    padding-left: 5%;
 }
 
+h2 {
+    padding: 5px 0;
+}
 
 .ulPoints {
 border: #423947 2px solid;
